@@ -1,0 +1,92 @@
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Koulen', cursive;
+    ;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    font-family:'koulen', cursive;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+    position: static;
+}
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'montserrat', sans-serif;
+    margin: 20px 0 0;
+    padding: 0 0 25px;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.produtos li:hover {
+    border-color: #c78c19;
+}
+.produtos li:hover h2{
+   transform: scale(1.13);
+}
+.produtos li:active {
+    border-color: #088c19;
+}
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Koulen', cursive;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    font-family: 'montserrat', sans-serif;
+}

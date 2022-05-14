@@ -1,0 +1,52 @@
+/*------------------------------------------------TAGS------------------------------------------------*/
+body {
+    background: #cccccc;
+}
+
+em strong {
+    color: #ff0000;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-top: 15%;
+}
+
+/*------------------------------------------------CLASSES------------------------------------------------*/
+
+.titulo_principal {
+    padding-left: 20px;
+}
+
+.titulo_centralizado {
+    text-align: center;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #ffffff;
+    padding: 20px;
+}
+
+.principal {
+    background: #cccccc;
+    padding: 30px;
+}
+
+/*------------------------------------------------IDS------------------------------------------------*/
+#banner {
+    width: 100%;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+#imagem_beneficios {
+    width: 50%;
+}
