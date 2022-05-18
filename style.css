@@ -1,4 +1,4 @@
-/*------------------------------------------all----------------------------------------------*/
+/*--------------------------------------------------all------------------------------------------------------------*/
 html,
 body,
 main {
@@ -6,10 +6,11 @@ main {
     font-family: 'montserrat', sans-serif;
 }
 
-/*------------------------------------------header----------------------------------------------*/
+/*-----------------------------------------------header------------------------------------------------------------*/
 header {
     background: #bbbbbb;
     padding: 20px 0;
+    margin-bottom: 30px;
 }
 
 nav {
@@ -20,7 +21,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 20px;
 }
 
 nav a {
@@ -28,21 +29,17 @@ nav a {
     color: #000000;
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 28px;
+    font-family: 'koulen', cursive;
 }
 
 nav a:hover {
     color: #c78c19;
-    text-decoration: underline;
 }
 
 
-/*-------------------------------------------------body-----------------------------------------------------------*/
-
-/*||||||||||||||||||||||||||||||||||||-------PRINCIPAL------|||||||||||||||||||||||||||||||||||||||||||||*/
-.banner {
-    width: 100%;
-}
+/*---------------------------------------------------body------------------------------------------------------------*/
+/*||||||||||||||||||||||||||||||||||||||||||||-------PRINCIPAL------|||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 .principal {
     padding: 3em 0;
@@ -51,23 +48,56 @@ nav a:hover {
     margin: 0 auto;
 }
 
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1.5em;
+    font-weight: bold;
+    font-family: 'koulen', cursive;
+}
+
+.utensilios {
+    width: 20%;
+    float: left;
+    margin: 30px 50px 50px 30px;
+    border-radius: 1.2em;
+    box-shadow: 5px 5px 15px #555555;
+}
+
+.utensilios:hover {
+    opacity: 0.8;
+}
+
 .principal p {
-    margin: 0 0 1em;
+    margin: 1em auto 1em;
+    width: 70%;
+    text-align: justify;
+    line-height: 1.5em;
+    align-items: center;
 }
 
 .principal strong {
     font-weight: bold;
 }
 
-.principal em {
-    font-style: italic;
+/*MAPA*/
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
 }
 
-.titulo-principal {
+.mapa p {
+    margin: 0 0 2em;
     text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
 }
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+/*beneficios*/
 
 .beneficios {
     clear: left;
@@ -80,6 +110,8 @@ nav a:hover {
     opacity: 1;
     transition: 400ms;
     box-shadow: 10px 10px 10px #555555;
+    margin: 5px auto 30px;
+    border-radius: 1.5em;
 }
 
 .imagem-beneficios:hover {
@@ -95,47 +127,25 @@ nav a:hover {
     width: 40%;
     display: inline-block;
     vertical-align: top;
+    margin-top: 40px;
 }
 
 .itens {
-    line-height: 1.5em;
+    line-height: 2em;
+
 }
 
 .itens::before {
-    content: "✯  ";
-}
-
-.itens:first-child {
-    font-weight: bold;
-}
-
-.utensilios {
-    width: 120px;
-    float: left;
-    margin: 0 20px 20px 0;
+    content: "✯ ";
 }
 
 .video {
     width: 560px;
-    margin: 2em auto;
+    margin: 7em auto;
 }
 
-.mapa {
-    padding: 3em 0;
-    background: linear-gradient(#fefefe, #888888);
-}
 
-.mapa p {
-    margin: 0 0 2em;
-    text-align: center;
-}
-
-.mapa-conteudo {
-    width: 940px;
-    margin: 0 auto;
-}
-
-/*|||||||||||||||||||||||||||||||||||||-----CONTATOS----||||||||||||||||||||||||||||||||*/
+/*|||||||||||||||||||||||||||||||||||||||||||||---------CONTATOS---------||||||||||||||||||||||||||||||||||||||||||*/
 .enviar {
     width: 40%;
     padding: 15px 0;
@@ -147,11 +157,13 @@ nav a:hover {
     border-radius: 5px;
     cursor: pointer;
     transition: 1s all;
+    margin: 2% 8%;
+   box-shadow: 2px 2px 6px #555555;
 }
 
 .enviar:hover {
     background-color: darkorange;
-    transform: scale(1.2);
+    transform: scale(0.98);
 
 }
 
@@ -160,20 +172,32 @@ table {
 }
 
 thead {
-    background: #555555;
+    background: #888888;
     color: white;
     font-weight: bold;
+    text-align: center;
 }
 
 td {
     border: 1px solid #000000;
     padding: 8px 15px;
+    width: 70%;
 }
-
+tr {
+    height: 40px;
+}
 form {
     margin: 40px 0;
+  
 }
+.formulario {
+    margin: 5% auto;
+    width: 80%;
+}
+.tabela {
+    margin: 5% 10%;
 
+}
 form label,
 form legend {
     display: block;
@@ -184,15 +208,23 @@ form legend {
 .input-padrao {
     display: block;
     margin: 0 0 20px;
-    padding: 10px 25px;
+    padding: 10px;
     width: 50%;
 }
 
 .checkbox {
-    margin: 20px 0;
+    margin: 40px 0;
 }
-
-/*|||||||||||||||||||||||||||----PRODUTO----||||||||||||||||||||||||||||||||||||||||||*/
+#select {
+    width: 20%;
+    height: 2em;
+    font-size: 1em;
+    padding-left: 0.5em;
+}
+.forma-contato {
+    margin: 35px 0 25px;
+}
+/*||||||||||||||||||||||||||||||||||||||||||||||----PRODUTO----|||||||||||||||||||||||||||||||||||||||||||||||||||*/
 .caixa {
     position: relative;
     width: 940px;
@@ -204,7 +236,7 @@ form legend {
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 0 1.5% 5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
@@ -232,6 +264,7 @@ form legend {
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
+    font-family: "koulen", cursive;
 }
 
 .produto-descricao {
@@ -248,37 +281,18 @@ form legend {
 footer {
     text-align: center;
     background: url("imagens/bg.jpg");
-    padding: 40px 0;
+    padding: 10px 0;
     position: static;
 }
 
 .copyright {
     color: #ffffff;
     font-size: 13px;
-    margin: 20px 0 0;
-    padding: 0 0 25px;
+    margin: 10px 0 0;
+    padding-bottom: 10px;
+
 }
 
-@media screen and (max-width: 480px) {
-
-    .caixa,
-    .principal,
-    .conteudo-beneficios,
-    .mapa-conteudo,
-    .video {
-        width: auto;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    nav {
-        position: static;
-    }
-
-    .lista-beneficios,
-    .imagem-beneficios {
-        width: 100%;
-    }
+.logo-footer {
+    width: 7%;
 }
