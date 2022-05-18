@@ -30,7 +30,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 28px;
-    font-family: 'koulen', cursive;
+    font-family: 'bebas neue', cursive;
 }
 
 nav a:hover {
@@ -53,7 +53,7 @@ nav a:hover {
     font-size: 2em;
     margin: 0 0 1.5em;
     font-weight: bold;
-    font-family: 'koulen', cursive;
+    font-family: 'bebas neue', cursive;
 }
 
 .utensilios {
@@ -82,7 +82,7 @@ nav a:hover {
 
 /*MAPA*/
 .mapa {
-    padding: 3em 0;
+    padding: 0;
     background: linear-gradient(#fefefe, #888888);
 }
 
@@ -101,7 +101,7 @@ nav a:hover {
 
 .beneficios {
     clear: left;
-    padding: 3em 0;
+    padding: 5em 0;
     background: #888888;
 }
 
@@ -264,7 +264,7 @@ form legend {
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
-    font-family: "koulen", cursive;
+    font-family: "bebas neue", cursive;
 }
 
 .produto-descricao {
