@@ -1,0 +1,15 @@
+@media screen and (max-width: 480px) {
+    .caixa {
+        width: auto;
+    }
+    .produtos li {
+        display: block;
+        width: 80%;
+        margin: 0 auto 2em;
+    }
+    .produtos {
+        width: auto;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+}

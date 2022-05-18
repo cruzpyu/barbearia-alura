@@ -1,0 +1,83 @@
+
+/*------------------------------------------mobile----------------------------------------------*/
+@media screen and (max-width: 480px) {
+
+    .caixa,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    header {
+        margin: 0;
+        padding-top: 5px;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .lista-beneficios,
+    .imagem-beneficios {
+        width: 100%;
+    }
+
+    .principal {
+        padding: 0.5em 1.5em;
+
+    }
+
+    .principal p {
+        width: 90%;
+    }
+
+    .utensilios {
+        width: 40%;
+        text-align: center;
+        margin: 0 30px 10px 10px;
+        box-shadow: 3px 3px 6px;
+    }
+
+    .titulo-principal {
+        margin: 30px auto;
+    }
+
+    .mapa {
+        padding: 0 0.9em 5em;
+        
+    }
+    .beneficios {
+        padding: 0;
+        margin: 0;
+    }
+    .beneficios-titulo {
+        margin: 0;
+    }
+   .lista-beneficios {
+       margin: 20px auto;
+       text-align: center;
+   }
+   .imagem-beneficios {
+       margin: 20px 0 30px 50px;
+       width: 70%;
+       border-radius: 1em;
+   }
+   .video {
+       margin: 30px 20px;
+   }
+}

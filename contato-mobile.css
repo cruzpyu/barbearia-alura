@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px) {
+
+    .enviar {
+        width: 90%;
+        margin: 4% 3%;
+    }
+
+    td {
+        width: 60%;
+    }
+
+    .formulario {
+        margin: 5% auto;
+        width: 80%;
+    }
+
+    .tabela {
+        width: 80%;
+        margin: auto 16%;
+    }
+
+    .input-padrao {
+        width: 90%;
+    }
+
+    .checkbox {
+        margin: 1em 0;
+    }
+
+    #select {
+        width: 80%;
+        margin: 7px auto 30px;
+    }
+
+    .forma-contato {
+        margin: 35px 0 25px;
+    }
+}
