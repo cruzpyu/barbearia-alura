@@ -62,22 +62,21 @@
         
     }
     .beneficios {
-        padding: 0;
-        margin: 0;
+        padding: 2%;
+ 
     }
-    .beneficios-titulo {
-        margin: 0;
-    }
+
    .lista-beneficios {
        margin: 20px auto;
        text-align: center;
    }
    .imagem-beneficios {
-       margin: 20px 0 30px 50px;
+       margin: 20px 0 30px 55px;
        width: 70%;
        border-radius: 1em;
    }
    .video {
-       margin: 30px 20px;
+       margin: 0 20px;
+       padding-bottom: 40px;
    }
 }
